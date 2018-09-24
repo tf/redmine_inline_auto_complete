@@ -1,0 +1,5 @@
+<% if User.current.logged? %>
+<script>
+  REDMINE_INLINE_AUTO_COMPLETE_ISSUE_BASE_URL = "<%= auto_complete_issues_path(project_id: @project, status: 'o') %>";
+</script>
+<% end %>

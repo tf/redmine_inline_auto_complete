@@ -1,0 +1,6 @@
+<% if User.current.logged? %>
+  <%= stylesheet_link_tag('vendor/jquery.atwho.min.css', plugin: 'redmine_inline_auto_complete') %>
+  <%= javascript_include_tag('vendor/jquery.caret.min.js', plugin: 'redmine_inline_auto_complete') %>
+  <%= javascript_include_tag('vendor/jquery.atwho.min.js', plugin: 'redmine_inline_auto_complete') %>
+  <%= javascript_include_tag('inline_auto_complete.js', plugin: 'redmine_inline_auto_complete') %>
+<% end %>
