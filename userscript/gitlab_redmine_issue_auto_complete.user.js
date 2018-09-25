@@ -43,7 +43,7 @@
           remoteFilter: fetchIssues,
 
           matcher: function(_, text) {
-            var match = text.match(new RegExp('(?:^|\\s)' + flag + '-([0-9]+|[^0-9][^-]{0,20})$', 'i'));
+            var match = text.match(new RegExp('(?:^|\\s)' + flag + '-([0-9]+|[^0-9 ][^-]{0,20})$', 'i'));
             return match && match[1];
           }
         }

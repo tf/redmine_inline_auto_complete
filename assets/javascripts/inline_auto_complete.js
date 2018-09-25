@@ -21,7 +21,7 @@ jQuery(function($) {
         remoteFilter: fetchIssues,
 
         matcher: function(flag, text) {
-          var match = text.match(/(^|\s)#([0-9]+|[^0-9][^#]{0,20})$/);
+          var match = text.match(/(^|\s)#([0-9]+|[^0-9 ][^#]{0,20})$/);
           return match && match[2];
         }
       }
