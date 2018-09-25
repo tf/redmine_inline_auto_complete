@@ -13,3 +13,8 @@ entries.
 Copy plugin directoy to `{RAILS_APP}/plugins` on your Redmine
 path. Restart your webserver.
 
+## GitLab Userscript
+
+This repository contains a userscript that enables issue auto
+completion for Redmine issues in
+GitLab. See [userscript readme](./userscript/README.md).
