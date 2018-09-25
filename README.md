@@ -1,4 +1,4 @@
-# Redmine Issue Auto Complete
+# Redmine Inline Auto Complete
 
 Auto complete issue references in issue descriptions and journal
 entries.
