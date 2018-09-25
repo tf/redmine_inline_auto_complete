@@ -1,4 +1,4 @@
-## GitLab Redmine Issue Auto Complete Userscript
+# GitLab Redmine Issue Auto Complete Userscript
 
 Display inline auto complete suggestions for Redmine issues in GitLab
 projects with linked Redmine projects.
